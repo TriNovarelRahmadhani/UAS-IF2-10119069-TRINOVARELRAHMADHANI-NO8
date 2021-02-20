@@ -21,6 +21,11 @@ public class UASIF210119069TRINOVARELRAHMADHANINO8 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Persegi p = new Persegi(6);
+        p.hitungLuas();
+        
+        PersegiPanjang pp = new PersegiPanjang(5, 7);
+        pp.hitungLuas();
     }
     
 }
